@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #001eff;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.Main">
+   <top>
+      <BorderPane id="topWindow" prefHeight="250.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <center>
+            <StackPane prefHeight="150.0" prefWidth="150.0" BorderPane.alignment="CENTER">
+               <TextField id="usernameInput" fx:id="usernameInput" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="159.0">
+                  <StackPane.margin>
+                     <Insets left="25.0" top="70.0" />
+                  </StackPane.margin>
+                  <font>
+                     <Font name="Arial" size="13.0" />
+                  </font>
+               </TextField>
+               <Label alignment="CENTER" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: black;" text="Username" textFill="#d600ff">
+                  <font>
+                     <Font name="Arial" size="15.0" />
+                  </font>
+                  <StackPane.margin>
+                     <Insets right="250.0" top="70.0" />
+                  </StackPane.margin>
+               </Label>
+               <Label alignment="CENTER" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: black;" text="ChatRoom" textFill="#d600ff">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+                  <StackPane.margin>
+                     <Insets bottom="120.0" left="10.0" top="20.0" />
+                  </StackPane.margin>
+               </Label>
+            </StackPane>
+         </center>
+      </BorderPane>
+   </top>
+   <center>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+         <left>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets top="20.0" />
+               </BorderPane.margin>
+               <TextField id="serverInfo" fx:id="addressInput" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="159.0" text="127.0.0.1">
+                  <StackPane.margin>
+                     <Insets bottom="100.0" left="25.0" top="20.0" />
+                  </StackPane.margin>
+                  <font>
+                     <Font size="15.0" />
+                  </font>
+               </TextField>
+               <TextField id="serverInfo" fx:id="portInput" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="159.0" text="9000">
+                  <font>
+                     <Font size="15.0" />
+                  </font>
+                  <StackPane.margin>
+                     <Insets left="25.0" top="20.0" />
+                  </StackPane.margin>
+               </TextField>
+               <Label alignment="CENTER" minHeight="30.0" minWidth="100.0" prefHeight="51.0" prefWidth="146.0" style="-fx-background-color: black;" text="Server Connection" textFill="#d600ff">
+                  <font>
+                     <Font name="Arial" size="15.0" />
+                  </font>
+                  <StackPane.margin>
+                     <Insets bottom="180.0" left="15.0" top="20.0" />
+                  </StackPane.margin>
+               </Label>
+               <Label alignment="CENTER" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: black;" text="Port" textFill="#d600ff">
+                  <font>
+                     <Font name="Arial" size="15.0" />
+                  </font>
+                  <StackPane.margin>
+                     <Insets left="28.0" right="220.0" top="20.0" />
+                  </StackPane.margin>
+               </Label>
+               <Label alignment="CENTER" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: black;" text="Address" textFill="#d600ff">
+                  <font>
+                     <Font name="Arial" size="15.0" />
+                  </font>
+                  <StackPane.margin>
+                     <Insets bottom="100.0" right="220.0" top="20.0" />
+                  </StackPane.margin>
+               </Label>
+               <ToggleButton id="launchServerButton" fx:id="connectButton" focusTraversable="false" mnemonicParsing="false" onMouseClicked="#connect" prefHeight="50.0" prefWidth="80.0" style="-fx-background-color: black;" text="Connect" textFill="#00ff9f">
+                  <StackPane.margin>
+                     <Insets left="15.0" top="120.0" />
+                  </StackPane.margin>
+                  <font>
+                     <Font name="Arial" size="15.0" />
+                  </font>
+               </ToggleButton>
+            </StackPane>
+         </left>
+      </BorderPane>
+   </center>
+</BorderPane>
