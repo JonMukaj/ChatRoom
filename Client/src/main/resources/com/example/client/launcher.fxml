@@ -33,7 +33,7 @@
                         </StackPane.margin>
                     </Label>
                     <Label alignment="CENTER" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: black;"
-                           text="ChatRoom" textFill="#d600ff">
+                           text="ChatRoom Client" textFill="#d600ff">
                         <font>
                             <Font size="20.0"/>
                         </font>

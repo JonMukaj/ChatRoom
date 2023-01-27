@@ -19,7 +19,7 @@ import java.util.Objects;
 
 public class Main extends Application {
 
-    private static final String APP_TITLE = "ChatRoom";
+    private static final String APP_TITLE = "ChatRoom Client";
 
     public TextField usernameInput;
     public TextField addressInput;

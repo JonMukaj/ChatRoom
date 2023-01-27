@@ -198,7 +198,7 @@ public class Client {
                 Text text = new Text("\n" + message);
 
                 if (message.contains(username + ": ") && (!username.equals(""))) {
-                    text.setStyle("-fx-fill:#004AFF;-fx-font-weight:bold");
+                    text.setStyle("-fx-fill:#d600ff;-fx-font-weight:bold");
                 }
                 CHAT.getChildren().add(text);
             });
