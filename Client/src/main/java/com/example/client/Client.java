@@ -29,6 +29,7 @@ public class Client {
 
     public Client(Stage stage, String username, String address, int port) {
         GridPane grid = new GridPane();
+        grid.getStyleClass().add("grid");
         grid.setVgap(8);
         grid.setHgap(10);
         grid.setPadding(new Insets(10, 10, 10, 10));
@@ -64,7 +65,7 @@ public class Client {
 
         private final TextFlow CHAT = new TextFlow();
         private final TextArea CHAT_INPUT = new TextArea();
-        private final Button BUTTON_SEND = new Button("SEND");
+        private final Button BUTTON_SEND = new Button("Send");
         private String username;
 
 
@@ -113,7 +114,7 @@ public class Client {
                 GridPane.setVgrow(statusLabel, Priority.ALWAYS);
                 GridPane.setConstraints(statusLabel, 1, 0);
 
-                Label usernameLabel = new Label("User: " + username);
+                Label usernameLabel = new Label(username);
                 usernameLabel.getStyleClass().add("status-username");
                 GridPane.setValignment(usernameLabel, VPos.TOP);
                 GridPane.setHalignment(usernameLabel, HPos.LEFT);

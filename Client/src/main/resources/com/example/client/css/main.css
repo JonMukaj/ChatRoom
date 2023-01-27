@@ -1,27 +1,28 @@
+.root{
+-fx-background-color: #001eff;
+}
+
 .chat-input{
 -fx-background-color: transparent;
 }
 
 .button-send{
--fx-background-color: #B82266;
--fx-text-fill: white;
--fx-font-weight: bold;
-}
-
-.root{
--fx-background-color: #2266B8;
+-fx-background-color: black;
+-fx-text-fill: 	#d600ff;
 }
 
 .status-circle{
--fx-fill: #00FF35;
+-fx-fill: #00ff9f;
 }
 
 .status-label{
--fx-text-fill: #B82266;
+-fx-text-fill: #d600ff;
 -fx-font-weight: bold;
+-fx-background-color: black;
 }
 
 .status-username{
 -fx-text-fill: white;
 -fx-font-weight: bold;
+-fx-font-size: 12pt;
 }
