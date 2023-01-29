@@ -17,8 +17,6 @@ import javafx.scene.shape.Circle;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextFlow;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
-
 import java.io.*;
 import java.net.Socket;
 import java.util.Objects;

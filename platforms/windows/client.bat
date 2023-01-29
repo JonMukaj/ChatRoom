@@ -1,0 +1,1 @@
+start client/app/bin/java -m com.example.client/com.example.client.Main
