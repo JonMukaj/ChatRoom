@@ -10,7 +10,7 @@
         <BorderPane id="topWindow" prefHeight="250.0" prefWidth="200.0" BorderPane.alignment="CENTER">
             <center>
                 <StackPane prefHeight="150.0" prefWidth="150.0" BorderPane.alignment="CENTER">
-                    <TextField id="usernameInput" fx:id="portInput" alignment="CENTER" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="159.0">
+                    <TextField id="usernameInput" fx:id="portInput" alignment="CENTER" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="159.0" text="9000">
                         <StackPane.margin>
                             <Insets left="25.0" top="70.0" />
                         </StackPane.margin>

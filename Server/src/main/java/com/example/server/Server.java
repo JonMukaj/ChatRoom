@@ -73,7 +73,7 @@ public class Server {
                     GridPane.setConstraints(CLIENTS_LIST_VIEW, 1, 0);
                     CLIENTS_LIST_VIEW.getStyleClass().add("clients-list");
 
-                    grid.getChildren().addAll(CHAT, CLIENTS_LIST_VIEW);
+                    Platform.runLater(() -> grid.getChildren().addAll(CHAT, CLIENTS_LIST_VIEW));
 
                     while (true) {
                         socket = serverSocket.accept();
